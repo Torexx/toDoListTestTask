@@ -1,0 +1,170 @@
+.todolist {
+    background-color: cornflowerblue;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+    border: grey solid 1px;
+}
+
+.header {
+
+}
+
+.tasks {
+
+}
+
+.task {
+    padding: 10px;
+    position: relative;
+    border: 2px solid gray;
+    margin: 10px
+}
+
+.todolist .task.done {
+    text-decoration: line-through;
+    color: red;
+
+
+}
+
+.todolist .task .delete {
+    margin-right: 10px;
+    font-weight: bold;
+    float: right;
+    color: red;
+    cursor: pointer;
+    display: none;
+}
+
+.todolist .task:hover .delete {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    /*top:20px;*/
+
+    background-color: orange;
+}
+
+.todolist .task:hover {
+    background-color: orange;
+}
+
+.app-wrapper {
+    display: grid;
+
+    grid-template-areas: "c1 c2 c2 c3";
+
+    grid-template-rows: 100% 1fr;
+    grid-template-columns: 7fr 7fr;
+    /*grid-gap: 10px;*/
+}
+
+.app-wrapper-content1 {
+    grid-area: c1;
+    /*background-color: rebeccapurple;*/
+
+}
+.app-wrapper-content2 {
+    grid-area: c2;
+    /*background-color: blue;*/
+}
+.app-wrapper-content3 {
+    grid-area: c3;
+    /*background-color: blue;*/
+}
+
+
+.test{
+    margin: 30px auto;
+    width:200px;
+
+    border-bottom: 1px solid gray;
+}
+
+.red{
+    color:red;
+}
+
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+
+
+select{
+    bcursor:none
+}
+select option:last-child{
+    background-color: green;
+}
+
+select option:hover option{
+    background-color: green !important;
+}
+.none{
+    display: none;
+}
+
+.todolist .todolist-footer{
+    display: flex;
+    margin-top:10px;
+
+}
+.todolist .todolist-footer div{
+    display: flex;
+    padding: 3px;
+
+}
+
+.todolist .todolist-footer .buttons button.active{
+    padding: 3px;
+    border: 2px solid black;
+
+}
+
+span{
+    margin: 10px
+}
+
+
+.test1{
+    color:red;
+
+}
+.none{
+    display:none
+}
+
+
+.app-wrapper{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.displayelement2,
+.displayelement{
+    /*padding: 0 10px;*/
+    /*display: flex;*/
+    /*width: 100%;*/
+    /*flex-grow: 1;*/
+
+    /*background-color: #61dafb;*/
+    cursor: pointer;
+
+}
+
+
+.test{
+
+}
+.a,.b{
+    display: inline-block;
+}
+.a{
+    margin-right: 39px;
+    margin-left:20px;
+}
