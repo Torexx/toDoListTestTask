@@ -41,8 +41,8 @@
 .todolist .task:hover .delete {
     display: inline-block;
     position: absolute;
-    right: 0px;
-    /*top:20px;*/
+    right: 10px;
+    top:0px;
 
     background-color: orange;
 }
@@ -114,11 +114,7 @@ select option:hover option{
     margin-top:10px;
 
 }
-.todolist .todolist-footer div{
-    display: flex;
-    padding: 3px;
 
-}
 
 .todolist .todolist-footer .buttons button.active{
     padding: 3px;
@@ -145,18 +141,16 @@ span{
     /*justify-content: center;*/
     align-items: center;
 }
-.displayelement2,
-.displayelement{
-    /*padding: 0 10px;*/
-    /*display: flex;*/
-    /*width: 100%;*/
-    /*flex-grow: 1;*/
 
-    /*background-color: #61dafb;*/
+.displayelement{
+
     cursor: pointer;
 
 }
+.button{
+  margin-left: 120px;
 
+}
 
 .test{
 

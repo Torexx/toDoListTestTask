@@ -7,8 +7,6 @@ class TasksList extends Component {
     render(){
         return(
             <div className="tasks">
-                <div className='a'>Название: </div> <div className='b'>Описание:</div>  <div className='a'>Важность:</div>
-                <div className='a'>Срок:</div>
 
                 {
                     this.props.tasks.map((task, index) => {
